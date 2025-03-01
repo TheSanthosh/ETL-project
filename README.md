@@ -66,7 +66,7 @@ df.head(10)
 import sqlalchemy as sql
 
 # Example connection string for SQL Server
-conn = sql.create_engine('mssql+pyodbc://sa:18122003@SANTHOSH/master?driver=ODBC+Driver+17+for+SQL+Server')
+conn = sql.create_engine('mssql+pyodbc://Your dATA BASE NAME AND PASSWORD driver=ODBC+Driver+17+for+SQL+Server')
 
 # Now you can use df.to_sql
 df.to_sql('df_orders', con=conn, index=False, if_exists='replace')
