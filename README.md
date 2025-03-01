@@ -159,7 +159,7 @@ ORDER BY sales_2023 DESC;  -- Ordering by sales_2023 to get the top 1 based on s
 Select * from df_orders
 
 
-AND then next connect powerBI and  create interactive dashboard
+# AND then next connect powerBI and  create interactive dashboard
 
 
 
